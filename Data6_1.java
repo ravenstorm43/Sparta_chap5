@@ -20,7 +20,7 @@ class Data6_1Main {
         System.out.println();
 
         // changeParameter(data.x, data.y);에서 data.x 와 data.y하고
-        // changeParameter에서 사용된 지역변수 x와 y는 값만 같은 별개의 변수임
+        // changeParameter에서 사용된 지역변수 x와 y는 값만 같고 값이 저장된 메모리주소는 다른 별개의 변수임
         // changeParameter에서 값을 변경해도 data.x, data.y는 변하지 않음
         System.out.println("Data6_1 클래스로 만든 data 인스턴스의 인스턴스 변수의 값이 변경되었는지 확인");
         System.out.println("changeParameter 메서드 수행 후 data 인스턴스 변수 x = " + data.x);

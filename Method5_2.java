@@ -14,7 +14,7 @@ class Method5_2 {
         if (x > y) {
             return true;
         } else {
-            return false;
+            return false; // 리턴하는 자료형을 지정했으면 반드시 값을 리턴해야함
         }
     }
 }
